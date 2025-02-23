@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{578D4B63-89A1-47CF-8C91-06110F816734}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ZFeryPackage.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ZFeryPackage">
+        <MSBuild Projects="ZFeryPackage.dproj"/>
+    </Target>
+    <Target Name="ZFeryPackage:Clean">
+        <MSBuild Projects="ZFeryPackage.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZFeryPackage:Make">
+        <MSBuild Projects="ZFeryPackage.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ZFeryPackage"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ZFeryPackage:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ZFeryPackage:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

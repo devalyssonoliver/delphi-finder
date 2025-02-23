@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/02/23 12:08:31.000.505,=rtl.dcp</Transaction>
+    <Transaction>2025/02/23 12:09:03.000.831,C:\Users\deval\Documents\ZFeryPackage\ZFeryPackage.dproj=C:\Users\deval\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2025/02/23 12:09:51.000.872,=C:\Users\deval\Documents\ZFeryPackage\Unit1.pas</Transaction>
+    <Transaction>2025/02/23 12:10:21.000.558,C:\Users\deval\Documents\ZFeryPackage\uSearchMore.pas=C:\Users\deval\Documents\ZFeryPackage\Unit1.pas</Transaction>
+    <Transaction>2025/02/23 12:11:28.000.190,=vcl.dcp</Transaction>
+    <Transaction>2025/02/23 12:11:28.000.240,=dbrtl.dcp</Transaction>
+    <Transaction>2025/02/23 12:11:28.000.297,=vclwinx.dcp</Transaction>
+    <Transaction>2025/02/23 12:11:28.000.429,=vcldb.dcp</Transaction>
+  </Transactions>
+</BorlandProject>
